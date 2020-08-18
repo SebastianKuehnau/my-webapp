@@ -6,8 +6,9 @@ import com.vaadin.flow.data.provider.CallbackDataProvider;
 import com.vaadin.flow.data.provider.DataProvider;
 import com.vaadin.flow.data.renderer.LocalDateRenderer;
 import com.vaadin.flow.router.Route;
+import org.example.MainLayout;
 
-@Route("grid")
+@Route(value = "grid", layout = MainLayout.class)
 public class GridView extends VerticalLayout {
 
     final PersonService service = new PersonService();
