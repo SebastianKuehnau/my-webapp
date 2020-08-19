@@ -19,5 +19,6 @@ public class MainView extends VerticalLayout {
                 event -> Notification.show("Clicked!"));
         button.addClassName("red-color");
         add(button);
+
     }
 }
