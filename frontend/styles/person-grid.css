@@ -1,0 +1,6 @@
+:host(.person-grid) [part~="cell"].green-cell {
+    color: green;
+}
+:host(.person-grid) [part~="cell"].red-cell {
+    color: red;
+}
